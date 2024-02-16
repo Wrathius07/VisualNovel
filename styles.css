@@ -147,14 +147,34 @@ table.rankings-table td:hover .info-overlay {
     
 }
 .purpose {
-    background-color: rgba(0, 0, 0, 0.258); /* Semi-transparent black background */
-    border-radius: 15px; /* Curved edges */
-    padding: 20px; /* Adjust padding as needed */
-    color: #fff; /* White text */
-    margin: 20px auto; /* Center horizontally */
-    max-width: 600px; /* Adjust width as needed */
+    position: relative;
+    border-radius: 15px;
+    padding: 20px;
+    color: #fff;
+    margin: 20px auto;
+    max-width: 600px;
     font-size: 40px;
-    box-shadow: 0 0 10px 5px rgb(0, 0, 0); /* Apply box shadow on hover */
+    box-shadow: 0 0 10px 5px rgb(0, 0, 0);
+    overflow: hidden; /* Ensure the overflow is hidden */
+}
+
+.purpose::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://imgur.com/psGWlrN.jpg');
+    background-size: cover;
+    opacity: 0.4; /* Adjust the opacity here */
+    z-index: -1;
+    border-radius: 15px;
+}
+
+/* Adjust the text color */
+.purpose p {
+    color: #fff;
 }
 
 .purpose-2 {
@@ -272,4 +292,22 @@ table.rankings-table td:hover .info-overlay {
 
 .dangan {
     left: 60px;
+}
+.profile-picture {
+    position: fixed;
+    top: 20%;
+    right: 90px;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    overflow: hidden;
+    width: 200px; /* Adjust size as needed */
+    height: auto; /* Adjust size as needed */
+    box-shadow: 0 0 10px 5px rgb(0, 0, 0);
+     /* White border */
+}
+
+.profile-picture img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
