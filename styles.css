@@ -137,10 +137,47 @@ table.rankings-table td:hover .info-overlay {
     padding: 20px; /* Adjust padding as needed */
     color: #fff; /* White text */
     margin: 20px auto; /* Center horizontally */
-    max-width: 600px; /* Adjust width as needed */
+    margin-left: 270px;
+    max-width: 700px; /* Adjust width as needed */
     transition: background-color 0.3s, padding 0.3s;
+    font-size: 20px;
 }
 .writing-area:hover {
+    background-color: rgba(0, 0, 0, 0.258); /* Darker background on hover */
+    padding: 17px 27px; /* Adjust padding to enlarge the button on hover */
+    box-shadow: 0 0 10px 5px rgb(0, 0, 0); /* Apply box shadow on hover */
+    
+    
+}
+.writing-area1 {
+    background-color: rgba(0, 0, 0, 0.258); /* Semi-transparent black background */
+    border-radius: 15px; /* Curved edges */
+    padding: 20px; /* Adjust padding as needed */
+    color: #fff; /* White text */
+    margin: 20px auto; /* Center horizontally */
+    margin-left: 270px;
+    max-width: 700px; /* Adjust width as needed */
+    transition: background-color 0.3s, padding 0.3s;
+    font-size: 20px;
+}
+.writing-area1:hover {
+    background-color: rgba(0, 0, 0, 0.258); /* Darker background on hover */
+    padding: 17px 27px; /* Adjust padding to enlarge the button on hover */
+    box-shadow: 0 0 10px 5px rgb(0, 0, 0); /* Apply box shadow on hover */
+    
+}
+.writing-area2 {
+    background-color: rgba(0, 0, 0, 0.258); /* Semi-transparent black background */
+    border-radius: 15px; /* Curved edges */
+    padding: 20px; /* Adjust padding as needed */
+    color: #fff; /* White text */
+    margin: 20px auto; /* Center horizontally */
+    margin-left: 270px;
+    max-width: 700px; /* Adjust width as needed */
+    transition: background-color 0.3s, padding 0.3s;
+    font-size: 20px;
+}
+.writing-area2:hover {
     background-color: rgba(0, 0, 0, 0.258); /* Darker background on hover */
     padding: 17px 27px; /* Adjust padding to enlarge the button on hover */
     box-shadow: 0 0 10px 5px rgb(0, 0, 0); /* Apply box shadow on hover */
@@ -310,4 +347,53 @@ table.rankings-table td:hover .info-overlay {
     display: block;
     width: 100%;
     height: auto;
+}
+
+.firstimg img{
+    border-radius: 15px; /* Adjust the radius as needed */
+    width: 350px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    box-shadow: 0 0 10px 5px rgb(0, 0, 0);
+}
+.firstimg {
+    position: absolute;
+    top: 25%;
+    transform: translateY(-50%);
+    right: 60px;
+}
+.first2img img{
+    border-radius: 15px; /* Adjust the radius as needed */
+    width: 350px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    box-shadow: 0 0 10px 5px rgb(0, 0, 0);
+}
+.first2img {
+    position: absolute;
+    top: 55%;
+    transform: translateY(-50%);
+    right: 60px;
+}
+.secondimg img{
+    border-radius: 15px; /* Adjust the radius as needed */
+    width: 400px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    box-shadow: 0 0 10px 5px rgb(0, 0, 0);
+}
+.secondimg {
+    position: absolute;
+    top: 95%;
+    transform: translateY(-50%);
+    right: 60px;
+}
+.thirdimg img{
+    border-radius: 15px; /* Adjust the radius as needed */
+    width: 400px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    box-shadow: 0 0 10px 5px rgb(0, 0, 0);
+}
+.thirdimg {
+    position: absolute;
+    top: 145%;
+    transform: translateY(-50%);
+    right: 60px;
 }
