@@ -374,7 +374,7 @@ table.rankings-table td:hover .info-overlay {
     position: absolute;
     top: 30%;
     transform: translateY(-50%);
-    right: 60px;
+    right: 100px;
 }
 .first2img img{
     border-radius: 15px; /* Adjust the radius as needed */
@@ -386,7 +386,7 @@ table.rankings-table td:hover .info-overlay {
     position: absolute;
     top: 60%;
     transform: translateY(-50%);
-    right: 60px;
+    right: 100px;
 }
 .secondimg img{
     border-radius: 15px; /* Adjust the radius as needed */
@@ -398,7 +398,7 @@ table.rankings-table td:hover .info-overlay {
     position: absolute;
     top: 85%;
     transform: translateY(-50%);
-    right: 60px;
+    right: 100px;
 }
 .thirdimg img{
     border-radius: 15px; /* Adjust the radius as needed */
@@ -410,5 +410,5 @@ table.rankings-table td:hover .info-overlay {
     position: absolute;
     top: 115%;
     transform: translateY(-50%);
-    right: 60px;
+    right: 100px;
 }
