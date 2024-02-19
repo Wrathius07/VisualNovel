@@ -130,6 +130,24 @@ table.rankings-table td:hover .info-overlay {
     -webkit-text-stroke: 1px black; /* Add black outline */
     text-stroke: 1px black; /* Add black outline */
 }
+.profile-picture {
+    position: fixed;
+    top: 20%;
+    right: 90px;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    overflow: hidden;
+    width: 200px; /* Adjust size as needed */
+    height: auto; /* Adjust size as needed */
+    box-shadow: 0 0 10px 5px rgb(0, 0, 0);
+     /* White border */
+}
+
+.profile-picture img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
 
 .writing-area {
     background-color: rgba(0, 0, 0, 0.258); /* Semi-transparent black background */
