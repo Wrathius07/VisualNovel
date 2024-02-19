@@ -1,4 +1,5 @@
-@@ -3,32 +3,32 @@ body {
+/* Global styles */
+body {
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
@@ -7,46 +8,30 @@
     background-attachment: fixed; /* Fixed background */
     background-repeat: no-repeat; /* Prevent background image from repeating */
     color: #fff; /* White text */
-    background-size: cover; 
-    background-position: center; 
-    background-attachment: fixed;
-    background-repeat: no-repeat; 
-    color: #fff; 
 }
-
 body.index {
-
+    
     background-image: url(https://imgur.com/BRPxvBW.gif); /* Background image */
-    background-image: url(https://imgur.com/BRPxvBW.gif); 
 }
-
 body.whatisavn {
     background-image: url(https://imgur.com/q22tgF6.gif); /* Background image */
-    background-image: url(https://imgur.com/q22tgF6.gif); 
 }
-
 body.rankings {
     background-image: url(https://imgur.com/RGyFJ0H.gif); /* Background image */
-    background-image: url(https://imgur.com/RGyFJ0H.gif); 
 }
-
 body.recommendations {
     background-image: url(https://imgur.com/Pm35Adv.gif); /* Background image */
-    background-image: url(https://imgur.com/Pm35Adv.gif); 
 }
-
 body.history {
     background-image: url(https://imgur.com/tMAL87G.gif); /* Background image */
-    background-image: url(https://imgur.com/tMAL87G.gif); 
 }
-
 header {
-@@ -38,44 +38,43 @@ header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
     text-align: center;
 }
-
 /* Additional styles for navigation */
-
 nav {
     position: fixed;
     top: 0;
@@ -55,100 +40,68 @@ nav {
     background-color: rgba(0, 0, 0, 0); /* Semi-transparent black background */
     padding: 20px 10px; /* Adjust padding as needed */
     z-index: 1000; /* Ensure it's above other content */
-    left: 0;
-    width: 200px; 
-    background-color: rgba(0, 0, 0, 0); 
-    padding: 20px 10px;
-    z-index: 1000; 
 }
 nav a {
     display: block;
     text-decoration: none;
     color: #fff; /* White text */
     background-color: #00000072; /* Dark background */
-    color: #fff; 
-    background-color: #00000072; 
     padding: 10px 20px;
     border-radius: 5px;
     margin: 0 10px;
     transition: background-color 0.3s, padding 0.3s; /* Add transition for smooth change */
 }
-    transition: background-color 0.3s, padding 0.3s;
-
-
 nav a:hover, nav a.active {
     padding: 17px 27px; /* Adjust padding to enlarge the button on hover */
     box-shadow: 0 0 10px 5px rgb(255, 255, 255); /* Apply box shadow on hover */
-    padding: 17px 27px;
-    box-shadow: 0 0 10px 5px rgb(255, 255, 255); 
 }
-
-
-
 /* Content styles */
-
 .content {
     padding: 20px;
     text-align: center;
 }
-
 /* Styles for the rankings table */
-
 table.rankings-table {
     margin: 20px auto; /* Center the table horizontally */
-    margin: 20px auto; 
-
+   
 }
-
-@@ -85,17 +84,17 @@ table.rankings-table td {
+table.rankings-table td {
+    padding: 0;
+    position: relative;
 }
-
 table.rankings-table img {
     width: 200px; /* Image size */
-    width: 200px; 
     height: auto;
     display: block;
     margin: 10px auto; /* Center image */
     border-radius: 15px; /* Curved edges for images */
     transition: transform 0.3s, filter 0.3s; /* Smooth transitions */
-    margin: 10px auto; 
-    border-radius: 15px; 
-    transition: transform 0.3s, filter 0.3s; 
 }
-
 table.rankings-table td:hover img{
     transform: scale(1.1); /* Enlarge image on hover */
     filter: brightness(70%); /* Darken image on hover */
-    transform: scale(1.1); 
-    filter: brightness(70%); 
     box-shadow: 0 0 10px 5px rgb(0, 0, 0)
 }
-
-@@ -105,82 +104,82 @@ table.rankings-table td:hover img{
+.info-overlay {
+    position: absolute;
+    bottom: 0;
     left: 0;
     width: 100%;
     border-radius: 15px;
     background-color: rgba(0, 0, 0, 0.541); /* Dark overlay */
-    background-color: rgba(0, 0, 0, 0.541);
     padding: 10px;
-
+    
     box-sizing: border-box;
     opacity: 0; /* Initially hidden */
     transition: opacity 0.3s; /* Smooth transition */
-    transition: opacity 0.3s; 
 }
-
 table.rankings-table td:hover .info-overlay {
     opacity: 1; /* Show overlay on hover */
-    opacity: 1; 
 }
-
 .info-overlay p {
     margin: 5px 0;
     color: #fff; /* White text */
-    color: #fff;
 }
-
 .content-whatisavn h1 {
     padding: 20px;
     text-align: center;
@@ -156,25 +109,131 @@ table.rankings-table td:hover .info-overlay {
     text-shadow: 0 0 10px rgb(0, 0, 0); /* Add shadow effect */
     -webkit-text-stroke: 1px black; /* Add black outline */
     text-stroke: 1px black; /* Add black outline */
-    text-shadow: 0 0 10px rgb(0, 0, 0); 
-    -webkit-text-stroke: 1px black; 
-    text-stroke: 1px black; 
 }
-
+.writing-area {
+    background-color: rgba(0, 0, 0, 0.258); /* Semi-transparent black background */
+    border-radius: 15px; /* Curved edges */
+/* Global styles */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+    background-attachment: fixed; /* Fixed background */
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+    color: #fff; /* White text */
+}
+body.index {
+    
+    background-image: url(https://imgur.com/BRPxvBW.gif); /* Background image */
+}
+body.whatisavn {
+    background-image: url(https://imgur.com/q22tgF6.gif); /* Background image */
+}
+body.rankings {
+    background-image: url(https://imgur.com/RGyFJ0H.gif); /* Background image */
+}
+body.recommendations {
+    background-image: url(https://imgur.com/Pm35Adv.gif); /* Background image */
+}
+body.history {
+    background-image: url(https://imgur.com/tMAL87G.gif); /* Background image */
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+/* Additional styles for navigation */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0; /* Set left to 0 to align with the left side */
+    width: 200px; /* Adjust width as needed */
+    background-color: rgba(0, 0, 0, 0); /* Semi-transparent black background */
+    padding: 20px 10px; /* Adjust padding as needed */
+    z-index: 1000; /* Ensure it's above other content */
+}
+nav a {
+    display: block;
+    text-decoration: none;
+    color: #fff; /* White text */
+    background-color: #00000072; /* Dark background */
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0 10px;
+    transition: background-color 0.3s, padding 0.3s; /* Add transition for smooth change */
+}
+nav a:hover, nav a.active {
+    padding: 17px 27px; /* Adjust padding to enlarge the button on hover */
+    box-shadow: 0 0 10px 5px rgb(255, 255, 255); /* Apply box shadow on hover */
+}
+/* Content styles */
+.content {
+    padding: 20px;
+    text-align: center;
+}
+/* Styles for the rankings table */
+table.rankings-table {
+    margin: 20px auto; /* Center the table horizontally */
+   
+}
+table.rankings-table td {
+    padding: 0;
+    position: relative;
+}
+table.rankings-table img {
+    width: 200px; /* Image size */
+    height: auto;
+    display: block;
+    margin: 10px auto; /* Center image */
+    border-radius: 15px; /* Curved edges for images */
+    transition: transform 0.3s, filter 0.3s; /* Smooth transitions */
+}
+table.rankings-table td:hover img{
+    transform: scale(1.1); /* Enlarge image on hover */
+    filter: brightness(70%); /* Darken image on hover */
+    box-shadow: 0 0 10px 5px rgb(0, 0, 0)
+}
+.info-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.541); /* Dark overlay */
+    padding: 10px;
+    
+    box-sizing: border-box;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s; /* Smooth transition */
+}
+table.rankings-table td:hover .info-overlay {
+    opacity: 1; /* Show overlay on hover */
+}
+.info-overlay p {
+    margin: 5px 0;
+    color: #fff; /* White text */
+}
+.content-whatisavn h1 {
+    padding: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px rgb(0, 0, 0); /* Add shadow effect */
+    -webkit-text-stroke: 1px black; /* Add black outline */
+    text-stroke: 1px black; /* Add black outline */
+}
 .writing-area {
     background-color: rgba(0, 0, 0, 0.258); /* Semi-transparent black background */
     border-radius: 15px; /* Curved edges */
     padding: 20px; /* Adjust padding as needed */
     color: #fff; /* White text */
     margin: 20px auto; /* Center horizontally */
-    background-color: rgba(0, 0, 0, 0.258);
-    border-radius: 15px; 
-    padding: 20px; 
-    color: #fff; 
-    margin: 20px auto; 
+    max-width: 600px; /* Adjust width as needed */
     margin-left: 270px;
     max-width: 700px; /* Adjust width as needed */
-    max-width: 700px;
     transition: background-color 0.3s, padding 0.3s;
     font-size: 20px;
 }
@@ -182,9 +241,6 @@ table.rankings-table td:hover .info-overlay {
     background-color: rgba(0, 0, 0, 0.258); /* Darker background on hover */
     padding: 17px 27px; /* Adjust padding to enlarge the button on hover */
     box-shadow: 0 0 10px 5px rgb(0, 0, 0); /* Apply box shadow on hover */
-    background-color: rgba(0, 0, 0, 0.258); 
-    padding: 17px 27px;
-    box-shadow: 0 0 10px 5px rgb(0, 0, 0);
 
 
 }
@@ -194,14 +250,8 @@ table.rankings-table td:hover .info-overlay {
     padding: 20px; /* Adjust padding as needed */
     color: #fff; /* White text */
     margin: 20px auto; /* Center horizontally */
-    background-color: rgba(0, 0, 0, 0.258); 
-    border-radius: 15px; 
-    padding: 20px; 
-    color: #fff; 
-    margin: 20px auto;
     margin-left: 270px;
     max-width: 700px; /* Adjust width as needed */
-    max-width: 700px;
     transition: background-color 0.3s, padding 0.3s;
     font-size: 20px;
 }
@@ -209,9 +259,6 @@ table.rankings-table td:hover .info-overlay {
     background-color: rgba(0, 0, 0, 0.258); /* Darker background on hover */
     padding: 17px 27px; /* Adjust padding to enlarge the button on hover */
     box-shadow: 0 0 10px 5px rgb(0, 0, 0); /* Apply box shadow on hover */
-    background-color: rgba(0, 0, 0, 0.258); 
-    padding: 17px 27px; 
-    box-shadow: 0 0 10px 5px rgb(0, 0, 0); 
 
 }
 .writing-area2 {
@@ -220,14 +267,8 @@ table.rankings-table td:hover .info-overlay {
     padding: 20px; /* Adjust padding as needed */
     color: #fff; /* White text */
     margin: 20px auto; /* Center horizontally */
-    background-color: rgba(0, 0, 0, 0.258); 
-    border-radius: 15px; 
-    padding: 20px; 
-    color: #fff;
-    margin: 20px auto;
     margin-left: 270px;
     max-width: 700px; /* Adjust width as needed */
-    max-width: 700px; 
     transition: background-color 0.3s, padding 0.3s;
     font-size: 20px;
 }
@@ -235,40 +276,40 @@ table.rankings-table td:hover .info-overlay {
     background-color: rgba(0, 0, 0, 0.258); /* Darker background on hover */
     padding: 17px 27px; /* Adjust padding to enlarge the button on hover */
     box-shadow: 0 0 10px 5px rgb(0, 0, 0); /* Apply box shadow on hover */
-    background-color: rgba(0, 0, 0, 0.258); 
-    padding: 17px 27px; 
-    box-shadow: 0 0 10px 5px rgb(0, 0, 0); 
 
 }
 .purpose {
-@@ -192,7 +191,7 @@ table.rankings-table td:hover .info-overlay {
+    position: relative;
+    border-radius: 15px;
+    padding: 20px;
+    color: #fff;
+    margin: 20px auto;
     max-width: 600px;
     font-size: 40px;
     box-shadow: 0 0 10px 5px rgb(0, 0, 0);
     overflow: hidden; /* Ensure the overflow is hidden */
-    overflow: hidden; 
 }
-
 .purpose::before {
-@@ -204,7 +203,7 @@ table.rankings-table td:hover .info-overlay {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
     height: 100%;
     background-image: url('https://imgur.com/psGWlrN.jpg');
     background-size: cover;
     opacity: 0.4; /* Adjust the opacity here */
-    opacity: 0.4; 
     z-index: -1;
     border-radius: 15px;
 }
-@@ -215,47 +214,47 @@ table.rankings-table td:hover .info-overlay {
+/* Adjust the text color */
+.purpose p {
+    color: #fff;
 }
-
 .purpose-2 {
     padding: 20px; /* Adjust padding as needed */
     color: #ffffff57; /* White text */ /* Center horizontally */
     max-width: 900px; /* Adjust width as needed */
-    padding: 20px; 
-    color: #ffffff57; 
-    max-width: 900px; 
     font-size: 60px;
     margin: 20px auto;
     margin-top: -60px; 
@@ -280,15 +321,8 @@ table.rankings-table td:hover .info-overlay {
     color: #fff; /* White text */
     margin: 20px auto; /* Center horizontally */
     max-width: 600px; /* Adjust width as needed */
-    background-color: rgba(0, 0, 0, 0.258);
-    border-radius: 15px; 
-    padding: 20px; 
-    color: #fff; 
-    margin: 20px auto; 
-    max-width: 600px; 
     font-size: 20px;
     box-shadow: 0 0 10px 5px rgb(0, 0, 0); /* Apply box shadow on hover */
-    box-shadow: 0 0 10px 5px rgb(0, 0, 0); 
 }
 .content-histo h1{
     padding: 20px;
@@ -297,10 +331,6 @@ table.rankings-table td:hover .info-overlay {
     text-shadow: 0 0 10px rgb(0, 0, 0); /* Add shadow effect */
     -webkit-text-stroke: 1px black; /* Add black outline */
     text-stroke: 1px black; /* Add black outline */
-    text-shadow: 0 0 10px rgb(0, 0, 0); 
-    -webkit-text-stroke: 1px black; 
-    text-stroke: 1px black; 
-
 }
 .content-rank h1{
     padding: 20px;
@@ -309,9 +339,6 @@ table.rankings-table td:hover .info-overlay {
     text-shadow: 0 0 10px rgb(0, 0, 0); /* Add shadow effect */
     -webkit-text-stroke: 1px black; /* Add black outline */
     text-stroke: 1px black; /* Add black outline */
-    text-shadow: 0 0 10px rgb(0, 0, 0); 
-    -webkit-text-stroke: 1px black; 
-    text-stroke: 1px black;
 }
 .content-recco h1{
     padding: 20px;
@@ -320,22 +347,23 @@ table.rankings-table td:hover .info-overlay {
     text-shadow: 0 0 10px rgb(0, 0, 0); /* Add shadow effect */
     -webkit-text-stroke: 1px black; /* Add black outline */
     text-stroke: 1px black; /* Add black outline */
-    text-shadow: 0 0 10px rgb(0, 0, 0); 
-    -webkit-text-stroke: 1px black; 
-    text-stroke: 1px black; 
 }
 .left-image, .right-image {
     position: fixed;
-@@ -273,25 +272,25 @@ table.rankings-table td:hover .info-overlay {
+    top: 70%;
+    transform: translateY(-50%);
+    
 }
-
+.left-image {
+    left: 60px;
+}
+.right-image {
+    right: 60px;
+}
 .left-image img, .right-image img {
     border-radius: 15px; /* Adjust the radius as needed */
     width: 300px; /* Adjust width as needed */
     height: auto; /* Maintain aspect ratio */
-    border-radius: 15px; 
-    width: 300px; 
-    height: auto; 
     box-shadow: 0 0 10px 5px rgb(0, 0, 0);
 }
 .writing-reco {
@@ -345,12 +373,6 @@ table.rankings-table td:hover .info-overlay {
     color: #fff; /* White text */
     margin: 20px auto; /* Center horizontally */
     max-width: 600px; /* Adjust width as needed */
-    background-color: rgba(0, 0, 0, 0.258);
-    border-radius: 15px; 
-    padding: 20px;
-    color: #fff; 
-    margin: 20px auto;
-    max-width: 600px;
     font-size: 20px;
     box-shadow: 0 0 10px 5px rgb(0, 0, 0); 
 }
@@ -358,13 +380,14 @@ table.rankings-table td:hover .info-overlay {
     border-radius: 15px; /* Adjust the radius as needed */
     width: 250px; /* Adjust width as needed */
     height: auto; /* Maintain aspect ratio */
-    border-radius: 15px; 
-    width: 250px;
-    height: auto;
     box-shadow: 0 0 10px 5px rgb(0, 0, 0);
 }
 .upperr {
-@@ -305,19 +304,19 @@ table.rankings-table td:hover .info-overlay {
+    position: absolute;
+    top: 43%;
+    transform: translateY(-50%);
+}
+.upperr {
     right: 60px;
 }
 .writing-reco1 {
@@ -374,12 +397,6 @@ table.rankings-table td:hover .info-overlay {
     color: #fff; /* White text */
     margin: 20px auto; /* Center horizontally */
     max-width: 600px; /* Adjust width as needed */
-    background-color: rgba(0, 0, 0, 0.258); 
-    border-radius: 15px;
-    padding: 20px; 
-    color: #fff;
-    margin: 20px auto;
-    max-width: 600px; 
     font-size: 20px;
     box-shadow: 0 0 10px 5px rgb(0, 0, 0); 
 }
@@ -387,72 +404,222 @@ table.rankings-table td:hover .info-overlay {
     border-radius: 15px; /* Adjust the radius as needed */
     width: 250px; /* Adjust width as needed */
     height: auto; /* Maintain aspect ratio */
-    border-radius: 15px; 
-    width: 250px; 
-    height: auto; 
     box-shadow: 0 0 10px 5px rgb(0, 0, 0);
 }
 .dangan {
-@@ -337,8 +336,8 @@ table.rankings-table td:hover .info-overlay {
+    position: absolute;
+    top: 100%;
+    transform: translateY(-50%);
+}
+.dangan {
+    left: 60px;
+}
+.profile-picture {
+    position: fixed;
+    top: 20%;
+    right: 90px;
     transform: translateY(-50%);
     border-radius: 50%;
     overflow: hidden;
     width: 200px; /* Adjust size as needed */
     height: auto; /* Adjust size as needed */
-    width: 200px; 
-    height: auto; 
     box-shadow: 0 0 10px 5px rgb(0, 0, 0);
      /* White border */
 }
-@@ -350,9 +349,9 @@ table.rankings-table td:hover .info-overlay {
+.profile-picture img {
+    display: block;
+    border-radius: 15px;
+    padding: 20px;
+    color: #fff;
+    margin: 20px auto;
+    max-width: 600px;
+    font-size: 40px;
+    box-shadow: 0 0 10px 5px rgb(0, 0, 0);
+    overflow: hidden; /* Ensure the overflow is hidden */
+}
+.purpose::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://imgur.com/psGWlrN.jpg');
+    background-size: cover;
+    opacity: 0.4; /* Adjust the opacity here */
+    z-index: -1;
+    border-radius: 15px;
+}
+/* Adjust the text color */
+.purpose p {
+    color: #fff;
+}
+.purpose-2 {
+    padding: 20px; /* Adjust padding as needed */
+    color: #ffffff57; /* White text */ /* Center horizontally */
+    max-width: 900px; /* Adjust width as needed */
+    font-size: 60px;
+    margin: 20px auto;
+    margin-top: -60px; 
+}
+.histo {
+    background-color: rgba(0, 0, 0, 0.258); /* Semi-transparent black background */
+    border-radius: 15px; /* Curved edges */
+    padding: 20px; /* Adjust padding as needed */
+    color: #fff; /* White text */
+    margin: 20px auto; /* Center horizontally */
+    max-width: 600px; /* Adjust width as needed */
+    font-size: 20px;
+    box-shadow: 0 0 10px 5px rgb(0, 0, 0); /* Apply box shadow on hover */
+}
+.content-histo h1{
+    padding: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px rgb(0, 0, 0); /* Add shadow effect */
+    -webkit-text-stroke: 1px black; /* Add black outline */
+    text-stroke: 1px black; /* Add black outline */
+}
+.content-rank h1{
+    padding: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px rgb(0, 0, 0); /* Add shadow effect */
+    -webkit-text-stroke: 1px black; /* Add black outline */
+    text-stroke: 1px black; /* Add black outline */
+}
+.content-recco h1{
+    padding: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px rgb(0, 0, 0); /* Add shadow effect */
+    -webkit-text-stroke: 1px black; /* Add black outline */
+    text-stroke: 1px black; /* Add black outline */
+}
+.left-image, .right-image {
+    position: fixed;
+    top: 70%;
+    transform: translateY(-50%);
+    
+}
+.left-image {
+    left: 60px;
+}
+.right-image {
+    right: 60px;
+}
+.left-image img, .right-image img {
+    border-radius: 15px; /* Adjust the radius as needed */
+    width: 300px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    box-shadow: 0 0 10px 5px rgb(0, 0, 0);
+}
+.writing-reco {
+    background-color: rgba(0, 0, 0, 0.258); /* Semi-transparent black background */
+    border-radius: 15px; /* Curved edges */
+    padding: 20px; /* Adjust padding as needed */
+    color: #fff; /* White text */
+    margin: 20px auto; /* Center horizontally */
+    max-width: 600px; /* Adjust width as needed */
+    font-size: 20px;
+    box-shadow: 0 0 10px 5px rgb(0, 0, 0); 
+}
+.upperr img {
+    border-radius: 15px; /* Adjust the radius as needed */
+    width: 250px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    box-shadow: 0 0 10px 5px rgb(0, 0, 0);
+}
+.upperr {
+    position: absolute;
+    top: 43%;
+    transform: translateY(-50%);
+}
+.upperr {
+    right: 60px;
+}
+.writing-reco1 {
+    background-color: rgba(0, 0, 0, 0.258); /* Semi-transparent black background */
+    border-radius: 15px; /* Curved edges */
+    padding: 20px; /* Adjust padding as needed */
+    color: #fff; /* White text */
+    margin: 20px auto; /* Center horizontally */
+    max-width: 600px; /* Adjust width as needed */
+    font-size: 20px;
+    box-shadow: 0 0 10px 5px rgb(0, 0, 0); 
+}
+.dangan img {
+    border-radius: 15px; /* Adjust the radius as needed */
+    width: 250px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    box-shadow: 0 0 10px 5px rgb(0, 0, 0);
+}
+.dangan {
+    position: absolute;
+    top: 100%;
+    transform: translateY(-50%);
+}
+.dangan {
+    left: 60px;
+}
+.profile-picture {
+    position: fixed;
+    top: 20%;
+    right: 90px;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    overflow: hidden;
+    width: 200px; /* Adjust size as needed */
+    height: auto; /* Adjust size as needed */
+    box-shadow: 0 0 10px 5px rgb(0, 0, 0);
+     /* White border */
+}
+.profile-picture img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .firstimg img{
     border-radius: 15px; /* Adjust the radius as needed */
     width: 350px; /* Adjust width as needed */
     height: auto; /* Maintain aspect ratio */
-    border-radius: 15px; 
-    width: 350px; 
-    height: auto; 
     box-shadow: 0 0 10px 5px rgb(0, 0, 0);
 }
 .firstimg {
-@@ -362,9 +361,9 @@ table.rankings-table td:hover .info-overlay {
+    position: absolute;
+    top: 25%;
+    transform: translateY(-50%);
     right: 60px;
 }
 .first2img img{
     border-radius: 15px; /* Adjust the radius as needed */
     width: 350px; /* Adjust width as needed */
     height: auto; /* Maintain aspect ratio */
-    border-radius: 15px; 
-    width: 350px;
-    height: auto; 
     box-shadow: 0 0 10px 5px rgb(0, 0, 0);
 }
 .first2img {
-@@ -374,9 +373,9 @@ table.rankings-table td:hover .info-overlay {
+    position: absolute;
+    top: 55%;
+    transform: translateY(-50%);
     right: 60px;
 }
 .secondimg img{
     border-radius: 15px; /* Adjust the radius as needed */
     width: 400px; /* Adjust width as needed */
     height: auto; /* Maintain aspect ratio */
-    border-radius: 15px;
-    width: 400px;
-    height: auto; 
     box-shadow: 0 0 10px 5px rgb(0, 0, 0);
 }
 .secondimg {
-@@ -386,9 +385,9 @@ table.rankings-table td:hover .info-overlay {
+    position: absolute;
+    top: 95%;
+    transform: translateY(-50%);
     right: 60px;
 }
 .thirdimg img{
     border-radius: 15px; /* Adjust the radius as needed */
     width: 400px; /* Adjust width as needed */
     height: auto; /* Maintain aspect ratio */
-    border-radius: 15px; 
-    width: 400px; 
-    height: auto;
     box-shadow: 0 0 10px 5px rgb(0, 0, 0);
 }
 .thirdimg {
