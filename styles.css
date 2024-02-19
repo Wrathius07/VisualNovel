@@ -335,31 +335,31 @@ table.rankings-table td:hover .info-overlay {
 
 .firstimg img{
     border-radius: 15px; /* Adjust the radius as needed */
-    width: 350px; /* Adjust width as needed */
+    width: 500px; /* Adjust width as needed */
     height: auto; /* Maintain aspect ratio */
     box-shadow: 0 0 10px 5px rgb(0, 0, 0);
 }
 .firstimg {
     position: absolute;
-    top: 25%;
+    top: 30%;
     transform: translateY(-50%);
     right: 60px;
 }
 .first2img img{
     border-radius: 15px; /* Adjust the radius as needed */
-    width: 350px; /* Adjust width as needed */
+    width: 500px; /* Adjust width as needed */
     height: auto; /* Maintain aspect ratio */
     box-shadow: 0 0 10px 5px rgb(0, 0, 0);
 }
 .first2img {
     position: absolute;
-    top: 55%;
+    top: 70%;
     transform: translateY(-50%);
     right: 60px;
 }
 .secondimg img{
     border-radius: 15px; /* Adjust the radius as needed */
-    width: 400px; /* Adjust width as needed */
+    width: 500px; /* Adjust width as needed */
     height: auto; /* Maintain aspect ratio */
     box-shadow: 0 0 10px 5px rgb(0, 0, 0);
 }
@@ -371,13 +371,13 @@ table.rankings-table td:hover .info-overlay {
 }
 .thirdimg img{
     border-radius: 15px; /* Adjust the radius as needed */
-    width: 400px; /* Adjust width as needed */
+    width: 500px; /* Adjust width as needed */
     height: auto; /* Maintain aspect ratio */
     box-shadow: 0 0 10px 5px rgb(0, 0, 0);
 }
 .thirdimg {
     position: absolute;
-    top: 145%;
+    top: 140%;
     transform: translateY(-50%);
     right: 60px;
 }
