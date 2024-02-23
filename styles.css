@@ -419,7 +419,6 @@ table.rankings-table td:hover .info-overlay {
     left: 50%; 
     transform: translateX(-50%);
 }
-@media only screen and (max-width: 1550px) {}
 
 @media only screen and (max-width: 400px) {
   .firstimg,
