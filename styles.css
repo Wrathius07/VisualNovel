@@ -432,7 +432,7 @@ table.rankings-table td:hover .info-overlay {
   }
   .writing-area,
   .writing-area1,
-  .writing-area2{
+  .writing-area2, .writing-reco, .writing-reco1{
     margin: 20px auto 0;
   }
     .purpose::before {
